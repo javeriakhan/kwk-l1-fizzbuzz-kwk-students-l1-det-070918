@@ -1,15 +1,8 @@
-def fizz_buzz(number)
-  if number % 3==0 && number % 5==0
-    puts "FizzBuzz"
-  elsif number % 3==0
-    puts "Fizz"
-  elsif number % 5==0
-    puts "Buzz"
-  else 
-    puts "nil"
-    
-  end
+num_of_hotdogs_eaten = 0 
 
+while num_of_hotdogs_eaten < 7
+num_of_hotdogs_eaten += 1 
+puts "You have now eaten #{num_of_hotdogs_eaten} hot dog(s)."
 end
 
-fizz_buzz(4)
+puts "You ate a total number of #{num_of_hotdogs_eaten} hot dogs!"
